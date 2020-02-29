@@ -1,0 +1,23 @@
+{
+  "name": "webpack-external-files",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --mode lib --target lib src/widget-render.js -name render.js --dest dist-lib"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "empty-widget": "^1.0.0",
+    "lodash": "^4.17.15",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-umd": "^7.8.3",
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
